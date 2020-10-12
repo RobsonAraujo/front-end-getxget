@@ -3,6 +3,7 @@ import Footer from 'components/Footer'
 import Button from 'components/Button'
 import FirstHeader from 'components/FirstHeader'
 import styled from 'styled-components'
+import Link from 'next/link'
 
 export const Wrapper = styled.div`
   padding-left: 74px;
@@ -32,7 +33,9 @@ export default function Home() {
           <TextDigital>
             inicie aqui a transformação digital da sua empresa
           </TextDigital>
-          <Button>Veja a lista de serviços</Button>
+          <Link href="/servicos">
+            <Button>Veja a lista de serviços</Button>
+          </Link>
         </Grid>
       </Grid>
       <div
