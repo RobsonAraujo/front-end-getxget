@@ -27,14 +27,14 @@ export const Subtitle = styled.p`
   flex-direction: column;
 `
 
-const Card = styled.div`
+const Card = styled.div<{ fast?: boolean }>`
   width: 280px;
   height: ${(props) => (props.fast ? '300px' : '243px')};
   background: #ffffff;
   padding: 32px;
 `
 
-const TitleCard = styled.h3`
+const TitleCard = styled.h3<{ fast?: boolean }>`
   font-family: Montserrat;
   font-style: normal;
   font-weight: bold;
@@ -45,7 +45,7 @@ const TitleCard = styled.h3`
   text-decoration: underline;
 `
 
-const PriceCard = styled.p`
+const PriceCard = styled.p<{ fast?: boolean }>`
   font-family: Montserrat;
   font-style: normal;
   font-weight: bold;
@@ -89,14 +89,14 @@ export default function Home() {
 
       <Grid
         container
-        sm="12"
+        sm={12}
         direction="row"
         justify="center"
         alignItems="center"
       >
         <Grid
           container
-          sm="3"
+          sm={3}
           direction="row"
           justify="flex-end"
           alignItems="center"
@@ -110,7 +110,7 @@ export default function Home() {
         </Grid>
         <Grid
           container
-          sm="3"
+          sm={3}
           direction="row"
           justify="center"
           alignItems="center"
@@ -127,7 +127,7 @@ export default function Home() {
 
         <Grid
           container
-          sm="3"
+          sm={3}
           direction="row"
           justify="flex-start"
           alignItems="center"
@@ -142,7 +142,7 @@ export default function Home() {
       </Grid>
       <Grid
         container
-        sm="12"
+        sm={12}
         direction="row"
         justify="center"
         alignItems="center"

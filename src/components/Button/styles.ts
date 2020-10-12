@@ -1,8 +1,7 @@
 import styled from 'styled-components'
 import { COLORS } from 'config/general'
-import { IButtonProps } from './IButtonProps'
 
-export const Wrapper = styled.button<IButtonProps>`
+export const Wrapper = styled.button`
   background: #93104d;
   width: 168px;
   height: 48px;

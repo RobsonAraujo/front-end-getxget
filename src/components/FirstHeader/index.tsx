@@ -4,7 +4,7 @@ import styled from 'styled-components'
 
 export const Wrapper = styled(Grid)``
 const FirstHeader = () => (
-  <Wrapper container spacing={12}>
+  <Wrapper container spacing={10}>
     <Grid item sm={6} xs={6}>
       <svg
         width="90"

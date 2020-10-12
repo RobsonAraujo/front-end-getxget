@@ -129,7 +129,7 @@ export default function Servicos() {
           <option value="mercedes">Mercedes</option>
           <option value="audi">Audi</option>
         </Select>
-        <TextArea id="w3review" name="w3review" rows="4" cols="50">
+        <TextArea id="w3review" name="w3review" rows={4} cols={50}>
           At w3schools.com you will learn how to make a website. They offer free
           tutorials in all web development technologies.
         </TextArea>

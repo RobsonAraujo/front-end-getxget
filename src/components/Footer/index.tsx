@@ -6,7 +6,7 @@ const Footer = () => (
     <Grid container sm={6} xs={6}>
       <S.Text>um projeto feito para o Hackathon Emprenda Getnet</S.Text>
     </Grid>
-    <Grid container sm={6} xs={6} container direction="row" justify="flex-end">
+    <Grid container sm={6} xs={6} direction="row" justify="flex-end">
       <S.Text>©2020 getget.</S.Text>
     </Grid>
   </S.Wrapper>
