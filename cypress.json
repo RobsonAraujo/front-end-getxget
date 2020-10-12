@@ -1,0 +1,17 @@
+{
+  "baseUrl": "http://localhost:3000",
+  "integrationFolder": "cypress/e2e",
+  "video": false,
+  "projectId": "mvq53k",
+  "env": {
+    "cypress-movie": {
+      "enabled": true,
+      "cursorTracking": {
+        "enabled": false,
+        "shape": "dot"
+      },
+      "width": 1920,
+      "height": 640
+    }
+  }
+}

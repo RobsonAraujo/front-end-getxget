@@ -1,0 +1,21 @@
+{
+  "name": "Mitsubishi Motors",
+  "short_name": "Mitsubishi",
+  "icons": [
+    {
+      "src": "/static/img/logo.svg",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/static/img/logo.svg",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "background_color": "#06092B",
+  "description": "ASX, Eclipse Cross, Outlander, Pajero, L200 Triton - Concessionárias - Eventos",
+  "display": "fullscreen",
+  "start_url": "/",
+  "theme_color": "#010101"
+}
