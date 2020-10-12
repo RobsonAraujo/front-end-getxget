@@ -34,7 +34,10 @@ const Subtitle = styled.p`
   color: #ffffff;
 `
 
-const List = styled.div``
+const List = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+`
 
 export default function Servicos() {
   return (
