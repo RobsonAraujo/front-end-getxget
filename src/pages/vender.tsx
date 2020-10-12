@@ -124,22 +124,27 @@ export default function Servicos() {
       </Container>
       <ContainerRegister>
         <Select name="cars" id="cars">
-          <option value="volvo">Volvo</option>
-          <option value="saab">Saab</option>
-          <option value="mercedes">Mercedes</option>
-          <option value="audi">Audi</option>
+          <option value="volvo">selecione um serviço</option>
+          <option value="volvo">Desenvolvimento web</option>
+          <option value="saab">Marketing digital </option>
+          <option value="mercedes">SEO</option>
+          <option value="audi">Redes sociais</option>
         </Select>
         <TextArea id="w3review" name="w3review" rows={4} cols={50}>
-          At w3schools.com you will learn how to make a website. They offer free
-          tutorials in all web development technologies.
+          Digite..
         </TextArea>
         <ContainerInput>
-          <Input type="text" id="lname" name="lname" />
+          <Input
+            placeholder="digite um preço"
+            type="text"
+            id="lname"
+            name="lname"
+          />
           <Select name="cars" id="cars">
-            <option value="volvo">Volvo</option>
-            <option value="saab">Saab</option>
-            <option value="mercedes">Mercedes</option>
-            <option value="audi">Audi</option>
+            <option value="volvo">como é cobrado</option>
+            <option value="volvo">Por hora</option>
+            <option value="saab">Quantidade de páginas</option>
+            <option value="saab">A negociar</option>
           </Select>
         </ContainerInput>
         <ButtonImage>incluir uma imagem do serviço</ButtonImage>

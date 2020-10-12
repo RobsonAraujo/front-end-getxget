@@ -17,7 +17,7 @@ export const VideoArea = styled.div`
 
 export const TextDigital = styled.h1`
   color: white;
-  max-width: 300px;
+  max-width: 360px;
   padding-bottom: 30px;
 `
 
@@ -34,7 +34,7 @@ export default function Home() {
             inicie aqui a transformação digital da sua empresa
           </TextDigital>
           <Link href="/servicos">
-            <Button>Veja a lista de serviços</Button>
+            <Button>Lista de serviços</Button>
           </Link>
         </Grid>
       </Grid>

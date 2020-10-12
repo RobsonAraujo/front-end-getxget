@@ -33,7 +33,7 @@ const GlobalStyles = createGlobalStyle`
     }
   }
   h1,h2,h3, h4, h5{
-    font-family: 'Montserrat-Bold';
+    font-family: Montserrat;
   }
   p{
     line-height: 30px;
