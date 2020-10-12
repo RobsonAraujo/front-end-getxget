@@ -70,22 +70,17 @@ const DescrpitonPriceCard = styled.p`
   color: #888896;
 `
 
-const CardComponent = () => (
+const CardComponent = ({ img, title, actor, description, price, way }) => (
   <Card>
     <CarImage>
-      <img
-        width="100%"
-        src="https://insights.dice.com/wp-content/uploads/2019/07/shutterstock_1371462110.jpg"
-      />
+      <img width="100%" src={img} />
     </CarImage>
     <div style={{ padding: '16px' }}>
-      <TitleCard>Criação de conteúdo</TitleCard>
-      <CardActor>por John Doe</CardActor>
-      <DescriptionCard>
-        Criação de conteúdo institucional, mídias sociais, blogs, entre outros.
-      </DescriptionCard>
-      <PriceCard>R$30,00</PriceCard>
-      <DescrpitonPriceCard>por texto</DescrpitonPriceCard>
+      <TitleCard>{title}</TitleCard>
+      <CardActor>por {actor}</CardActor>
+      <DescriptionCard>{description}</DescriptionCard>
+      <PriceCard> $RS {price}</PriceCard>
+      <DescrpitonPriceCard>{way}</DescrpitonPriceCard>
     </div>
   </Card>
 )
