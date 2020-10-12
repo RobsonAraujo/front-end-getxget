@@ -12,7 +12,6 @@ export const Wrapper = styled.div`
 export const VideoArea = styled.div`
   width: 100%;
   height: 360px;
-  background: #dfdfe2;
 `
 
 export const TextDigital = styled.h1`
@@ -27,7 +26,9 @@ export default function Home() {
       <FirstHeader />
       <Grid container spacing={3}>
         <Grid item xs={12} sm={6}>
-          <VideoArea />
+          <VideoArea>
+            <img src="static/img/arte.jpeg" />
+          </VideoArea>
         </Grid>
         <Grid item xs={12} sm={6} container direction="column" justify="center">
           <TextDigital>
