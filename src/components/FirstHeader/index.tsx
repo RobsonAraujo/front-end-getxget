@@ -48,7 +48,7 @@ const FirstHeader = () => (
       </svg>
     </Logo>
 
-    <RightSide container sm={6} xs={6} direction="row" justify="flex-end">
+    <RightSide>
       <RegisterButton> entre ou cadastre-se </RegisterButton>
     </RightSide>
   </Wrapper>
