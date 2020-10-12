@@ -13,13 +13,15 @@ const GlobalStyles = createGlobalStyle`
   body{
     background-color: ${COLORS.dark};
     color: ${COLORS.white};
+
   }
   html, body, #__next {
     height: 100%;
-    font-family: 'open_sansregular';
+    font-family: 'Montserrat-Regular';
+
   }
   b{
-    font-family: 'open_sansbold';
+    font-family: 'Montserrat-Bold';
   }
   a{
     color: ${COLORS.white};
@@ -31,7 +33,7 @@ const GlobalStyles = createGlobalStyle`
     }
   }
   h1,h2,h3, h4, h5{
-    font-family: 'open_sansextrabold';
+    font-family: 'Montserrat-Bold';
   }
   p{
     line-height: 30px;

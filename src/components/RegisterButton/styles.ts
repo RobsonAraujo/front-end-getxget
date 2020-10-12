@@ -7,9 +7,11 @@ export const Wrapper = styled.button<IButtonProps>`
   height: 120px;
   background: #93104d;
   color: white;
-  font-family: Montserrat;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+  border: none;
+  text-decoration: underline;
+  cursor: pointer;
 `
