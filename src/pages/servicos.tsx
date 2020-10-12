@@ -230,7 +230,7 @@ export default function Servicos() {
           actor="John Doe"
           description="Melhorar o ranqueamento no Google e outros buscadores do seu website "
           price="80,00"
-          way="por hora trabalhada"
+          way="por hora trabalhada "
         />
         <Card
           img="https://blog.hotmart.com/blog/2014/09/BLOG_emailmarketing-ALTERACAO-670x419.png"
