@@ -12,13 +12,13 @@
     "module": "esnext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
-    "isolatedModules": true,
+    "isolatedModules": false,
     "jsx": "preserve",
     "types": ["cypress"],
     "paths": {
       "@components/*": ["components/*"],
-      "@helpers/*": ["config/*"],
-    },
+      "@helpers/*": ["config/*"]
+    }
   },
   "exclude": ["node_modules"],
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"]
