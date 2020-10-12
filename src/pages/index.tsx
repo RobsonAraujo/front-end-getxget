@@ -32,7 +32,7 @@ export default function Home() {
           <TextDigital>
             inicie aqui a transformação digital da sua empresa
           </TextDigital>
-          <Button>comece de graça</Button>
+          <Button>Veja a lista de serviços</Button>
         </Grid>
       </Grid>
       <div
