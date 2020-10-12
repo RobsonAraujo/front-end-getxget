@@ -4,6 +4,7 @@ import { IOpenArrowProps } from './IFooterProps'
 
 export const Wrapper = styled.footer`
   display: flex;
+  height: 60px;
 `
 
 export const Text = styled.footer`

@@ -2,10 +2,18 @@ import Grid from '@material-ui/core/Grid'
 import RegisterButton from 'components/RegisterButton'
 import styled from 'styled-components'
 
-export const Wrapper = styled(Grid)``
+export const Wrapper = styled.div`
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+`
+export const Logo = styled.div``
+export const RightSide = styled.div``
 const FirstHeader = () => (
-  <Wrapper container spacing={10}>
-    <Grid item sm={6} xs={6}>
+  <Wrapper>
+    <Logo>
       <svg
         width="90"
         height="56"
@@ -38,11 +46,11 @@ const FirstHeader = () => (
           fill="white"
         />
       </svg>
-    </Grid>
+    </Logo>
 
-    <Grid container sm={6} xs={6} direction="row" justify="flex-end">
+    <RightSide container sm={6} xs={6} direction="row" justify="flex-end">
       <RegisterButton> entre ou cadastre-se </RegisterButton>
-    </Grid>
+    </RightSide>
   </Wrapper>
 )
 
